@@ -1,4 +1,4 @@
-public class employee  {
+public class employee extends person {
     public int empid;
     public int salary;
     public employee(int empid, int salary){
@@ -13,11 +13,11 @@ public class employee  {
 
     }
     public static void main(String[] args){
-       // person p =new person();
+        person p =new person();
         employee e = new employee(103, 25000);
-        // p.displayName();
-        // p.name="Sadhana";
-        // p.displayAge("21-09-2004");
+         p.displayName();
+         p.name="Sadhana";
+         p.displayAge("21-09-2004");
        e.display();
     }
 } 
